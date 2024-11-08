@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/vale.jpeg">
+    <style>
+      *{
+        font-family: Times;
+        margin: 10px;
+      }
+
+      header, footer {
+        display: flex;
+        justify-content: center;
+        background-color: #47b7f3;
+        height: 50px;
+      }
+
+      #foto {
+        border-radius: 10px;
+        box-shadow: 15px;
+        float: right;
+        width: 200px;
+        height: 200px;
+      }
+
+      #navegador{
+        background-color: rgba(236, 247, 175);
+      }
+
+      #name:hover {
+        font-weight: bold;
+        color: white;
+      }
+
+      ol {
+        margin: 20px 0 0 -20px;
+        color: rgb(94, 84, 84);
+        font-size: 16px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      a:hover {
+        font-weight: bold;
+        color: black;
+      }
+
+      a:active {
+        color: blue;
+      }
+
+      li {
+        margin-top: 12px;
+      }
+
+      aside{
+        height: 310px;
+      }
+
+      #imgredes{
+        width: 30px;
+        height: 30px;
+      }
+
+      #imgredes:hover{
+        width: 40px;
+        height: 40px;
+      }
+      
+      ul#redes{
+        list-style: none;
+      }
+
+      li#rsocial:hover{
+        font-size: 30px;
+      }
+    </style>
+    <title>Ejercicio U1-T1</title>
+</head>
+<body>
+    <header>
+        <h2 id="name">Heidy Valeria Usiña Morales </h2>
+    </header>
+    <main>
+        <h1>Bienvenido a Mi Sitio Web</h1>
+    </main>
+    <nav id="navegador">
+        <ul class="">
+            <li><a href="index.html">¿Quien soy?</a></li>
+            <li><a href="estudios.html">Estudios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+            <li><a href="redes.html">Social Media</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <h3>Redes Sociales</h3>
+            <ul id="redes">
+                <li id="rsocial"><a href="https://www.facebook.com/profile.php?id=100004609126825" target="_blank"><img id="imgredes" src="img/facebook.png">Facebook</a></li>
+                <li id="rsocial"><a href="https://www.instagram.com/jvkook.97/profilecard/?igsh=MWNmeWJqZ3ozbHV5bQ==" target="_blank"><img id="imgredes" src="img/instagram-bosquejado.png">Instagram</a></li>
+            </ul>
+    </aside>
+    <footer>
+        <p id="direccion">San Pedro de Pisuli Lote 31, <span> Quito</span> | Tel: <span>3385911</span>
+        </p>
+    </footer>
+</body>
+</html>
